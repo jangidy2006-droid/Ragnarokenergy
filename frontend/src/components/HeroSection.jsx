@@ -24,11 +24,10 @@ const HeroSection = () => {
         
         {/* Main product image - All 3 variants */}
         <div className="product-hero mb-8 relative">
-          <div className="glow-effect"></div>
           <img 
             src="https://customer-assets.emergentagent.com/job_ragnarok-showcase/artifacts/e59sp3kn_combine_these_in_202604141650.png"
             alt="Ragnarok Energy - All Variants"
-            className="hero-can w-full max-w-4xl mx-auto drop-shadow-2xl animate-float"
+            className="hero-can w-full max-w-4xl mx-auto animate-float"
           />
         </div>
 
