@@ -87,7 +87,7 @@ const ProductCard = ({ product, index }) => {
 
 const ProductShowcase = () => {
   return (
-    <section className="product-showcase py-20 bg-gradient-to-b from-white to-gray-50">
+    <section className="product-showcase py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-black text-gray-900 mb-4 tracking-tight">
