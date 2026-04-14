@@ -9,7 +9,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="hero-section relative min-h-screen flex items-center justify-center overflow-hidden" style={{backgroundColor: '#fafafa'}}>
+    <section className="hero-section relative min-h-screen flex items-center justify-center overflow-hidden" style={{backgroundColor: '#ffffff'}}>
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="energy-particle particle-1"></div>
@@ -28,6 +28,10 @@ const HeroSection = () => {
             src="https://customer-assets.emergentagent.com/job_ragnarok-showcase/artifacts/e59sp3kn_combine_these_in_202604141650.png"
             alt="Ragnarok Energy - All Variants"
             className="hero-can w-full max-w-4xl mx-auto animate-float"
+            style={{
+              mixBlendMode: 'multiply',
+              filter: 'brightness(1.02)'
+            }}
           />
         </div>
 

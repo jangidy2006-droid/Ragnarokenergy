@@ -87,7 +87,7 @@ const ProductCard = ({ product, index }) => {
 
 const ProductShowcase = () => {
   return (
-    <section className="product-showcase py-20" style={{backgroundColor: '#fafafa'}}>
+    <section className="product-showcase py-20" style={{backgroundColor: '#ffffff'}}>
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-black text-gray-900 mb-4 tracking-tight">

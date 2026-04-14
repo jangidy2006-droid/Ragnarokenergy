@@ -46,7 +46,7 @@ const AboutSection = () => {
   ];
 
   return (
-    <section ref={sectionRef} className="about-section py-24 relative overflow-hidden" style={{backgroundColor: '#fafafa'}}>
+    <section ref={sectionRef} className="about-section py-24 relative overflow-hidden" style={{backgroundColor: '#ffffff'}}>
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-red-100 rounded-full blur-3xl opacity-20"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-orange-100 rounded-full blur-3xl opacity-20"></div>
