@@ -138,3 +138,13 @@ Create a modern, high-energy product showcase website for an energy drink brand 
 - No backend required - frontend only showcase
 - No e-commerce functionality as per requirements
 - Instagram handle: @ragnarok_energy_drink
+
+## Updates Log
+
+### Update 1: Hero Image Enhancement
+**Date: Current Session**
+- Changed hero section to display combined image (all 3 variants together)
+- Enlarged hero image from max-w-md to max-w-4xl for better impact
+- Increased glow effect size (600px × 500px) to match larger image
+- Image URL: https://customer-assets.emergentagent.com/job_ragnarok-showcase/artifacts/e59sp3kn_combine_these_in_202604141650.png
+- Mobile responsive display verified

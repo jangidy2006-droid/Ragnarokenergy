@@ -22,13 +22,13 @@ const HeroSection = () => {
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}>
         
-        {/* Main product image */}
+        {/* Main product image - All 3 variants */}
         <div className="product-hero mb-8 relative">
           <div className="glow-effect"></div>
           <img 
-            src="https://customer-assets.emergentagent.com/job_a548ea69-4ae3-4fdc-a809-179eb0171f37/artifacts/wvywev37_WhatsApp%20Image%202026-04-08%20at%2015.00.49.jpeg"
-            alt="Ragnarok Energy Ultra"
-            className="hero-can w-full max-w-md mx-auto drop-shadow-2xl animate-float"
+            src="https://customer-assets.emergentagent.com/job_ragnarok-showcase/artifacts/e59sp3kn_combine_these_in_202604141650.png"
+            alt="Ragnarok Energy - All Variants"
+            className="hero-can w-full max-w-4xl mx-auto drop-shadow-2xl animate-float"
           />
         </div>
 
