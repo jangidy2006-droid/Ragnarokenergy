@@ -1,0 +1,226 @@
+/* ===== CUSTOM ANIMATIONS & EFFECTS ===== */
+
+/* Floating animation for hero can */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(2deg);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Energy particles background */
+.energy-particle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  opacity: 0.1;
+  filter: blur(60px);
+  animation: particle-float 20s infinite ease-in-out;
+}
+
+.particle-1 {
+  background: linear-gradient(135deg, #FF6B6B, #FFD700);
+  top: 10%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.particle-2 {
+  background: linear-gradient(135deg, #FFD700, #FF8C00);
+  top: 60%;
+  right: 10%;
+  animation-delay: 5s;
+}
+
+.particle-3 {
+  background: linear-gradient(135deg, #DC143C, #8B0000);
+  bottom: 20%;
+  left: 20%;
+  animation-delay: 10s;
+}
+
+.particle-4 {
+  background: linear-gradient(135deg, #FF4500, #FFD700);
+  top: 40%;
+  right: 30%;
+  animation-delay: 15s;
+}
+
+@keyframes particle-float {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(50px, -50px) scale(1.1);
+  }
+  50% {
+    transform: translate(-30px, 50px) scale(0.9);
+  }
+  75% {
+    transform: translate(40px, 30px) scale(1.05);
+  }
+}
+
+/* Glow effect for hero product */
+.glow-effect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(220, 20, 60, 0.3), transparent 70%);
+  filter: blur(80px);
+  animation: glow-pulse 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    opacity: 0.5;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+/* Scroll indicator */
+.scroll-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mouse-scroll {
+  width: 30px;
+  height: 50px;
+  border: 3px solid #333;
+  border-radius: 20px;
+  position: relative;
+}
+
+.mouse-scroll-icon {
+  width: 6px;
+  height: 10px;
+  background: #333;
+  border-radius: 3px;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scroll-down 2s infinite;
+}
+
+@keyframes scroll-down {
+  0% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px);
+  }
+}
+
+/* Product card hover effects */
+.product-card {
+  position: relative;
+}
+
+.product-image-container {
+  position: relative;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Smooth page transitions */
+.page-transition {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Instagram button gradient animation */
+.instagram-btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.instagram-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s;
+}
+
+.instagram-btn:hover::before {
+  left: 100%;
+}
+
+/* Text selection styling */
+::selection {
+  background-color: rgba(220, 20, 60, 0.3);
+  color: #000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .energy-particle {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .glow-effect {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .hero-can {
+    max-width: 280px !important;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #DC143C, #8B0000);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #8B0000, #DC143C);
+}
