@@ -3,12 +3,12 @@
 export const products = [
   {
     id: 1,
-    name: "Thunder Citrus",
-    tagline: "Electrifying Citrus Power",
+    name: "Classic",
+    tagline: "Original Energy Formula",
     color: "#FFD700",
     accentColor: "#FFA500",
     image: "https://customer-assets.emergentagent.com/job_a548ea69-4ae3-4fdc-a809-179eb0171f37/artifacts/xx2qoy0q_combine_these_in_202604141650.png",
-    description: "Bold citrus flavor with an electrifying kick"
+    description: "The original energy experience"
   },
   {
     id: 2,

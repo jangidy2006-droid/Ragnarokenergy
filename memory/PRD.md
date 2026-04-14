@@ -148,3 +148,20 @@ Create a modern, high-energy product showcase website for an energy drink brand 
 - Increased glow effect size (600px × 500px) to match larger image
 - Image URL: https://customer-assets.emergentagent.com/job_ragnarok-showcase/artifacts/e59sp3kn_combine_these_in_202604141650.png
 - Mobile responsive display verified
+
+### Update 2: Content & Legal Information
+**Date: Current Session**
+- Updated header Instagram button to icon-only (no text)
+- Removed scroll down animation from hero section
+- Added "Caffeinated Drink" text in hero section
+- Changed "Thunder Citrus" to "Classic" variant
+- Added main tagline in footer: "WE WILL NOT IMMEDIATELY BUT DEFINITELY"
+- Added complete company details:
+  - Marketed by: Shree Maruti Enterprises
+  - Full address in Jodhpur, Rajasthan
+  - Contact: +91 9782285599
+  - Email: ragnarokenergy19@gmail.com
+- Added legal/product information:
+  - FSSAI Lic. No: 22221074003288
+  - Caffeine content warning (75 MG/250 ML)
+  - Safety disclaimer

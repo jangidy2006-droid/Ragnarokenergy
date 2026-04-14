@@ -29,10 +29,10 @@ const Header = () => {
           href={`https://instagram.com/${brandInfo.instagram}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="instagram-btn group flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300"
+          className="instagram-btn group flex items-center justify-center w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300"
+          aria-label="Follow us on Instagram"
         >
-          <Instagram className="w-5 h-5" />
-          <span className="hidden md:inline font-semibold">@{brandInfo.instagram}</span>
+          <Instagram className="w-6 h-6" />
         </a>
       </div>
     </header>

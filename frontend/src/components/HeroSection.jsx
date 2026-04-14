@@ -40,13 +40,9 @@ const HeroSection = () => {
           <p className="text-2xl md:text-3xl font-bold text-red-600 tracking-wide">
             {brandInfo.subtitle}
           </p>
-        </div>
-
-        {/* Scroll indicator */}
-        <div className="scroll-indicator mt-16">
-          <div className="mouse-scroll">
-            <div className="mouse-scroll-icon"></div>
-          </div>
+          <p className="text-lg md:text-xl font-semibold text-gray-600 tracking-wider uppercase">
+            Caffeinated Drink
+          </p>
         </div>
       </div>
     </section>
