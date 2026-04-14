@@ -35,7 +35,7 @@ const Header = () => {
           <img 
             src="https://customer-assets.emergentagent.com/job_ragnarok-showcase/artifacts/a0m3v8e3_Beverage_Can_Animation_A_detailed_illustration_depicts_a_wolfs_head_in_QreMTt0e.png"
             alt="Ragnarok Logo"
-            className="w-16 h-16 object-contain drop-shadow-lg"
+            className="w-16 h-16 object-cover rounded-full drop-shadow-lg border-2 border-gray-200"
           />
         </a>
       </div>
