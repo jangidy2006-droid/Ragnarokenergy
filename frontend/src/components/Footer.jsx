@@ -9,8 +9,8 @@ const Footer = () => {
         
         {/* Main Tagline */}
         <div className="text-center mb-12">
-          <p className="text-3xl md:text-4xl font-black tracking-tight text-red-500 mb-2">
-            WE WILL NOT IMMEDIATELY BUT DEFINITELY
+          <p className="text-3xl md:text-4xl font-black tracking-tight text-red-500 mb-2">WE WILL WIN NOT IMMEDIATELY BUT DEFINITELY
+
           </p>
           <p className="text-xl font-bold text-gray-300 mt-4">
             Feel The Energy Of Ragnarok
@@ -32,13 +32,13 @@ const Footer = () => {
 
           {/* Social */}
           <div className="flex flex-col items-center md:items-end gap-3">
-            <a 
+            <a
               href={`https://instagram.com/${brandInfo.instagram}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full hover:shadow-lg hover:scale-110 transition-all duration-300"
-              aria-label="Follow us on Instagram"
-            >
+              aria-label="Follow us on Instagram">
+
               <Instagram className="w-6 h-6" />
             </a>
           </div>
@@ -97,8 +97,8 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;
