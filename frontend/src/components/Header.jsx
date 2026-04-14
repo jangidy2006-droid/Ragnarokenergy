@@ -29,10 +29,14 @@ const Header = () => {
           href={`https://instagram.com/${brandInfo.instagram}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="instagram-btn group flex items-center justify-center w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300"
+          className="logo-btn group hover:scale-110 transition-all duration-300"
           aria-label="Follow us on Instagram"
         >
-          <Instagram className="w-6 h-6" />
+          <img 
+            src="https://customer-assets.emergentagent.com/job_ragnarok-showcase/artifacts/a0m3v8e3_Beverage_Can_Animation_A_detailed_illustration_depicts_a_wolfs_head_in_QreMTt0e.png"
+            alt="Ragnarok Logo"
+            className="w-16 h-16 object-contain drop-shadow-lg"
+          />
         </a>
       </div>
     </header>

@@ -165,3 +165,11 @@ Create a modern, high-energy product showcase website for an energy drink brand 
   - FSSAI Lic. No: 22221074003288
   - Caffeine content warning (75 MG/250 ML)
   - Safety disclaimer
+
+### Update 3: Custom Logo Implementation
+**Date: Current Session**
+- Replaced Instagram icon with custom Ragnarok wolf logo in header
+- Logo remains clickable and links to Instagram (@ragnarok_energy_drink)
+- Added hover scale effect for interactivity
+- Logo URL: https://customer-assets.emergentagent.com/job_ragnarok-showcase/artifacts/a0m3v8e3_Beverage_Can_Animation_A_detailed_illustration_depicts_a_wolfs_head_in_QreMTt0e.png
+- Responsive on both desktop and mobile views
