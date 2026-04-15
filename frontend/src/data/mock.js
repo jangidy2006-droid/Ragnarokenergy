@@ -21,7 +21,7 @@ export const products = [
 },
 {
   id: 3,
-  name: "Ultra",
+  name: "Ultra Max",
   tagline: "Maximum Power Unleashed",
   color: "#8B0000",
   accentColor: "#DC143C",
