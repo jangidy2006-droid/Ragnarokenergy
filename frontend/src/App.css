@@ -224,3 +224,26 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #8B0000, #DC143C);
 }
+
+/* Hide Emergent watermark */
+[data-emergent-watermark],
+.emergent-watermark,
+div[style*="Made with Emergent"],
+a[href*="emergent"] img[alt*="Emergent"],
+div:has(> a[href*="emergent.sh"]) {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Additional watermark hiding */
+div[style*="position: fixed"][style*="bottom"][style*="right"],
+div[style*="position:fixed"][style*="bottom"][style*="right"] {
+  display: none !important;
+}
+
+/* Hide any fixed bottom-right elements that might be watermarks */
+body > div:last-child[style*="position: fixed"] {
+  display: none !important;
+}
